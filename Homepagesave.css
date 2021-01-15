@@ -1,0 +1,124 @@
+@charset "UTF-8";
+/* CSS Document */
+
+  body {
+    background: rgb(255,0,0);
+background: linear-gradient(80deg, rgba(255,0,0,1) 0%, rgba(255,155,0,1) 14%, rgba(252,255,0,1) 28%, rgba(0,255,82,1) 42%, rgba(0,184,255,1) 56%, rgba(104,0,255,1) 70%, rgba(138,0,255,1) 84%);
+width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+background-repeat: no-repeat;
+  }
+
+
+
+h1{
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px  black;
+}
+p{
+    color: white;
+}
+figcaption{
+  color: white;
+}
+hr{
+	
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: linear-gradient(90deg, rgba(64,246,230,1) 20%, rgba(221,10,10,1) 50%, rgba(226,78,241,1) 80%);
+  }
+  li {
+    float: left;
+    text-align: center;
+    color: black;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: white;
+  }
+
+img{
+  width: 300px;
+  height: 300px;
+}
+.center {
+    float: center;
+}
+*{
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  font-size: 150%;
+  text-shadow: 2px 2px  black;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group button {
+  background-color: turquoise; /* Green background */
+  border: 1px solid turquoise; /* Green border */
+  color: black; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: white;
+}
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+
+}
+
+img.socialemedia{
+  height: 25px;
+  width: auto;
+  border: none;
+}
+.figcaption{
+  font-size: 250%;
+}

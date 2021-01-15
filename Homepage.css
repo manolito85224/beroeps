@@ -1,0 +1,49 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+  background-color: rgb(30, 34, 97);
+}
+
+h1{
+  color: white;
+  text-align: center;
+}
+p{
+    color: white;
+}
+
+hr{
+	 
+}
+
+ul{
+  list-style: none;
+  display: block;
+  margin: 0px;
+  padding: 0px;
+}
+
+li{
+  background-color: rgb(108, 50, 173);
+  width: 175px;
+  height: 75px;
+  text-align: center;
+  margin: 5px;
+  padding: 10px; 
+  vertical-align: top; 
+  position:relative; 
+}
+
+a{
+  display: block;
+  color: white;
+  text-align: center;
+  line-height: 75px;
+  font-size:15px;
+}
+
+img{
+  border: solid black 15px;
+}
+
